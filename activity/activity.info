@@ -1,0 +1,10 @@
+[Activity]
+name = GCompris Memory Word Number
+license = GPLv3+
+exec = .0sugar/launch +../GComprisContent.activity/.0sugar-injection/implementations bin/gcompris-activity
+activity_version = 14
+suggests = gcompris/media
+bundle_id = net.gcompris.memorywordnumber
+requires = gcompris/memory_wordnumber
+icon = memo_wordnumber
+
